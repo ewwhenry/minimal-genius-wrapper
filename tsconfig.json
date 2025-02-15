@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", // Directorio de salida
+    "declaration": true, // Generar archivos .d.ts
+    "declarationMap": true, // Opcional, mapea los archivos de declaración con el código
+    "target": "ES6", // Define el nivel de ECMAScript
+    "module": "ES6", // Usa el módulo de ES6
+    "moduleResolution": "node", // Resolución de módulos como en Node.js
+    "esModuleInterop": true, // Permite la interoperabilidad entre CommonJS y ESModules
+    "strict": true, // Habilita la verificación estricta
+    "skipLibCheck": true // Omite la verificación de las dependencias
+  },
+  "include": [
+    "src/**/*.ts" // Directorio donde está tu código TypeScript
+  ],
+  "exclude": [
+    "node_modules" // No compilar node_modules
+  ]
+}
